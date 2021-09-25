@@ -25,7 +25,6 @@ class DashboardController extends Controller
     {
         $user = auth()->user();
         $posts = $user->posts;
-        // dd($post);
         return view('dashboard' ,compact('posts'));
     }
 }

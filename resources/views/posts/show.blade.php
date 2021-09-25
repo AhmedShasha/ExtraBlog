@@ -9,9 +9,9 @@
                 <div class="card-title">
                     <h4> {{ $posts->title }}</h4>
                 </div>
-                <div class="card-text">
+                {{-- <div class="card-text">
                     <img src="{{ asset('storage/images/' . $posts->image) }}" alt="" width="100%" height="250px">
-                </div>
+                </div> --}}
                 <div class="card-text">
                     {{ $posts->body }}
                 </div>
